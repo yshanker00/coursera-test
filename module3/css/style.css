@@ -75,7 +75,7 @@ span {
   font-weight: bold;
   text-align: center;
   border: 1px solid black;
-   background: linear-gradient(to right, #e6dada, #274046); 
+  background-color: linear-gradient(to right, #e6dada, #274046);  
 }
 #nav-list a:hover { /* this is for changing mouse pointer when it goes over glyphicon */
   background: #E7E7E7;
@@ -103,6 +103,7 @@ span {
 @media (min-width: 1200px) {
 #header-nav {
   height: 70px;
+    margin:0px
 }
 .navbar-brand {
     padding-top: 10px;
